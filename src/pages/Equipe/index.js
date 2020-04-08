@@ -367,7 +367,7 @@ export default function Profile(){
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={Vitinho} />
                             <Card.Body>
-                                <Card.Title>Victor Sousa</Card.Title>
+                                <Card.Title>Victor Souza</Card.Title>
                                 <Card.Text>
                                 <Accordion defaultActiveKey="1">
                                             <Card>

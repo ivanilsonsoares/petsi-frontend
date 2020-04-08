@@ -100,7 +100,7 @@ export default function Profile(){
         </div>
 
         <div className="nav-bar">
-            <h1><FiMapPin size={18} color="#000"/> Links Importantes:</h1>
+            <h5><FiMapPin size={18} color="#000"/> Links Importantes:</h5>
                 <center>
                 <Row>
                     <Col>

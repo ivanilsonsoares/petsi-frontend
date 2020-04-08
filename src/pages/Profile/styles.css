@@ -228,6 +228,12 @@ img.d-block.w-50 {
     padding-left: 1.5rem !important;
 }
 
+.navbar-light .navbar-toggler {
+    color: rgba(242, 235, 235, 0.99) !important;
+    border-color: rgba(252, 252, 252, 0.85) !important;
+    background-color: white !important;
+}
+
 
 .footer{
     position: relative;
