@@ -4,7 +4,7 @@ import LogoImg from '../../assets/logo.png';
 import Sippa from '../../assets/sippa.png';
 import Savi from '../../assets/savi.png';
 import Sisac from '../../assets/sisac.png';
-import {FiMapPin} from 'react-icons/fi';
+import {FiMapPin, FiFacebook, FiInstagram, FiGithub} from 'react-icons/fi';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 /* Imagens bolsistas*/
@@ -453,7 +453,27 @@ export default function Profile(){
                 
         </div>
         <div className="footer">
+            <div className="footer-div">
+                <Row>
+                    <Col>
+                        <a href="/">
+                            <FiFacebook size={18} color="#FFF"/>        
+                        </a>
+                    </Col>
+                    <Col>
+                        <a href="/">
+                            <FiInstagram size={18} color="#FFF"/>        
+                        </a>
+                    </Col>
+                    <Col>
+                        <a href="/">
+                            <FiGithub size={18} color="#FFF"/>        
+                        </a>
+                    </Col>
+                    <Col></Col>
+                </Row>
             Copyright &copy; 2020 Pet-SI
+            </div>
         </div>
         
         </div>

@@ -13,8 +13,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton'
 import Dropdown from 'react-bootstrap/Dropdown'
 
 import {Link, useHistory } from 'react-router-dom';
-import {FiPower, FiTrash2, FiMapPin} from 'react-icons/fi';
-import api from '../../services/api';
+import {FiPower, FiTrash2, FiMapPin, FiFacebook, FiInstagram, FiGithub} from 'react-icons/fi';import api from '../../services/api';
 import './styles.css';
 
 export default function Profile(){
@@ -138,7 +137,27 @@ export default function Profile(){
         </div>
 
         <div className="footer">
+            <div className="footer-div">
+                <Row>
+                    <Col>
+                        <a href="/">
+                            <FiFacebook size={18} color="#FFF"/>        
+                        </a>
+                    </Col>
+                    <Col>
+                        <a href="/">
+                            <FiInstagram size={18} color="#FFF"/>        
+                        </a>
+                    </Col>
+                    <Col>
+                        <a href="/">
+                            <FiGithub size={18} color="#FFF"/>        
+                        </a>
+                    </Col>
+                    <Col></Col>
+                </Row>
             Copyright &copy; 2020 Pet-SI
+            </div>
         </div>
         
         </div>

@@ -205,5 +205,16 @@ a {
     color: white;
     text-align: center;
     padding: 1%;
+    
+}
+
+
+.footer .footer-div{
+    display: flex !important;
+    margin-left: 38% !important;
+}
+
+.footer .footer-div .insta {
+    width: 4%;
 }
 
